@@ -2,5 +2,6 @@
 
 ## Prefix
 * AG - Analytic Geometry
+* LA - Linear Algebra
 * PB - Probability
-* ST - Statistics
+* MST - Mathematical Statistics
