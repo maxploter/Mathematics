@@ -3,10 +3,12 @@
 Self-study, run as two parallel tracks so foundations and curiosity don't have to compete for
 the same session.
 
-- **`bottom-up/`** — a real course, worked start to finish, in order. Currently: MIT 6.041
-  *Probabilistic Systems Analysis and Applied Probability* (Tsitsiklis), materials in
-  `probability-mit-john-tsitsiklis/`. Slow, sequential, sometimes boring — that's expected, not
-  a signal to switch.
+- **`bottom-up/`** — a real course, worked start to finish, in order. Currently: **НМУ
+  (Независимый московский университет)**, Математический анализ-1 + Алгебра-1, autumn 2026, as a
+  remote вольнослушатель — see `nmu.md`. Slow, sequential, sometimes boring — that's expected,
+  not a signal to switch. The earlier MIT 6.041 probability material
+  (`probability-mit-john-tsitsiklis/`) is now supplementary, for when Теория вероятностей is
+  reached.
 - **`top-down/`** — start from a real phenomenon (own health data, a game, a news claim) and
   reach for whatever math explains it. Each unit in `top-down/units/NN-slug/` ends in something
   that runs and something that could be shown to another person. This is the shareable half.
