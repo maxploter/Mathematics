@@ -23,6 +23,10 @@ square matrices AᵀBᵀ fits too but is a different matrix (that is what the nu
 reason is entry-wise: ((AB)ᵀ)ᵢⱼ = (AB)ⱼᵢ = row j of A · column i of B (PRML (C.1): "verified by
 writing out the indices"). Notation: he used C for a matrix and for a dimension (K × C).
 
-Check question (asked 22.11.2026, pending): for square A and B both BᵀAᵀ and AᵀBᵀ are defined,
+Check question (asked 22.11.2026): for square A and B both BᵀAᵀ and AᵀBᵀ are defined,
 so the shapes don't decide. Why is (AB)ᵀ equal to BᵀAᵀ and not to AᵀBᵀ? Answer from what entry
 (i, j) of (AB)ᵀ is.
+**Answered 22.11.2026, correct** (spoken): an entry of AB is a row of A times a column of B;
+transposing turns B's columns into rows of Bᵀ and A's rows into columns of Aᵀ, so to pair the
+same row and column again Bᵀ must come first. Index form (not stated by him):
+((AB)ᵀ)ᵢⱼ = (AB)ⱼᵢ = (row j of A)·(column i of B) = (row i of Bᵀ)·(column j of Aᵀ) = (BᵀAᵀ)ᵢⱼ.
