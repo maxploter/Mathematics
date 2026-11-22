@@ -17,5 +17,8 @@ Review: right; three-factor rule used in the right order, (Rᵀ)ᵀ = R, symmetr
 the right place. Shape: his first guess was "m by n"; his own method gives n×m · m×m · m×n = n×n.
 It must be square anyway: only a square matrix can equal its transpose.
 
-Check question (asked 22.11.2026, pending): where exactly did you use Aᵀ = A? What would
+Check question (asked 22.11.2026): where exactly did you use Aᵀ = A? What would
 (RᵀAR)ᵀ be if instead Aᵀ = −A?
+**Answered 22.11.2026, correct** (spoken): Aᵀ = A is used when Aᵀ in RᵀAᵀR is replaced by A; with
+Aᵀ = −A the transpose is the same product with a minus in front, (RᵀAR)ᵀ = −RᵀAR. He linked it to
+PRML 2.17 himself (same pattern with R = x − μ).
